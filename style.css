@@ -1,5 +1,16 @@
 
+h1{
+  font-family: 'Quicksand';
+}
 
+h2, h3{
+  font-family: 'Roboto';
+  font-weight: 120;    
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /*Navigation bar*/
 .navbar{
@@ -127,27 +138,52 @@
   justify-content: center;
 }
 
+.popupMoreBtn{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 13%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popupMoreBtn:hover{
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
 #velosonicsPopup{
  padding: 20%;
  max-height: 80%;
- background: rgb(255, 255, 255);
+ background: rgba(255, 255, 255, 0.95);
 }
 
 #chasDataSchoolPopup{
   padding: 20%;
   max-height: 80%;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 0.95);
 }
 
 #sonicAssemblyPopup{
   padding: 20%;
   max-height: 80%;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 0.95);
 }
 
 .popupImg{
   max-width: 100%;
 }
+
+.popupText{
+  font-size: 20px;
+  padding: 20px;
+}
+
 /*The different projects, make them interact on hover*/
 .projectBtn{
   display: flex;
@@ -165,6 +201,9 @@
   color: rgb(255, 255, 255);
   letter-spacing: 7px;
   font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
 }
 
 
@@ -206,7 +245,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 200px;
+  font-size: 240px;
   padding: 20px;
   background-color: rgb(218, 158, 8);
   color: white;
@@ -217,7 +256,7 @@
 }
 
 #cvBtn:hover {
-  color: black;
+  color: blueviolet;
 }
 
 /* The Close Button */
@@ -247,17 +286,20 @@
   background-color: rgb(8, 218, 36);
 }
 
-@media screen {
-  
-}
-
 
 .greekHead{
   max-width: 40%;
   max-height: 40%;
-  margin-left: 110px;
-  padding-left: 200px;
+  margin-right: 20px;
+  padding-left: 300px;
 }
+
+@media screen and (max-width: 768px){
+  .greekHead{
+    display: none;
+  }
+}
+
 
 
 .greekHead:hover{
