@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Ng's Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+
+</head>
+<body>
+
+  <header>
+
+    <nav class="navbar">
+      <a class="navLinks" href=#homeLink>
+      <div class = "logo">
+        <h1 class="logoText">
+          Joshua Ng
+        </h1>
+        <img class="logoImage", src="images/circle.png" alt="Logo">
+      </div>
+      </a>
+      
+      <div class="navMenu">
+        <a class="navLinks" href=#aboutLink>About</a>
+        <a class="navLinks" href=#workLink>Work</a>
+        <a class="navLinks" href=#cvLink>CV</a>
+        <a class="navLinks" href=#contactLink>Let's Chat</a>
+      </div>
+  
+    </nav>
+
+  </header>
+
+
+ 
+  <div class = "hero" id="homeLink">
+  
+    <h1 id="hej"> Hej! <br></h1>
+
+    <h1 class = "heroText">
+      I’m Joshua Ng, a fullstack engineer, audio programmer and creative technologist based in Stockholm. I love building things & taking them apart,  <a class="heroLinks" href="https://www.youtube.com/watch?v=J0B28_gwj0M&list=PL7GxGvr71rQ4otNEuVdwLHaBWwErfnPBJ" target="_blank">binge-watching history docs</a> on YouTube, and baking a mean pizza 🍕 
+      I explore the intersection of art and tech, and have worked on projects with brands like <a class="heroLinks" href="https://www.sonicassembly.se/work/google-jacob-collier" target="blank">Google</a>  and <a class="heroLinks" href="https://www.sonicassembly.se/work/click-click" target="_blank">Fujifilm</a> 🚀 as well worked on fun DIY projects (like <a class="heroLinks" href="https://www.github.com/" target="_blank">building this MIDI controller</a> for my dog, Elsie &#128021)
+    </h1>
+  </div>
+
+
+
+  <div class="projects" id="workLink">
+
+    <div class="bounce">
+      <h1 class="selectedProjects"> Selected Projects</h1>
+    </div>
+    
+    
+    <button class="projectBtn" popovertarget="velosonicsPopup" >Velosonics</button>
+    <button class="projectBtn" popovertarget="chasDataSchoolPopup" >Chas Data School</button>
+    <button class="projectBtn" popovertarget="sonicAssemblyPopup" >Sonic Assembly</button>
+
+<div id = "velosonicsPopup" popover>  
+  <h1 class="popupTitle">Velosonics</h1>
+  <h2 class="popupSubtitle">Harnessing Sonic Data for Safer, Smarter Cities </h2>
+  <img class="popupImg" src="images/velosonics.png">
+  <p>Velosonics is a project concept aimed at identifying the potentials of utilising sonic data to collect information on the urban environment by applying sound design techniques to delivery bikes. This cross-sector collaboration brings together a Swedish creative sound studio, Sonic Assembly, and an Italian sustainable logistics company, MoveByBike, united by a shared interest in working towards more human-centric cities driven by data.  The pilot phase for this project takes place over 2025 with support from the European Commission via the CreativeFLIP cross-sectoral innovation fund.<br> </p>
+      
+    <a href="https://creativeflip.creativehubs.net/" target="_blank">
+      <button class="popupMoreBtn">Find Out More</button>
+    </a>
+  </div>
+
+
+<div id = "chasDataSchoolPopup" popover>
+  <h1>Chas Data School</h1>
+  <h2 class="popupSubtitle">A prototype of a database system for a fictional school</h2>
+  <img class="popupImg" src="images/chas.png">
+
+  <p>As part of my education at Chas Academy, Stockholm, I built an application that was based on a simulated school which allowed a user with admin priviledges to perform a range of functions, including adding students, sorting staff by department, viewing grades and more.<br>
+    The application was built using the .NET framework in C# as well as SQLLite and Azure Data Studio.  The application was built using Entity Framework and on EEF Modeling to simulate a school with the possibility of being scaled up. <br>
+  </p>
+  <a href="https://github.com/joshuauaua/ChasDataSchool" target="_blank">
+    <button class="popupMoreBtn">Find Out More</button>
+  </a>
+</div>
+
+<div id = "sonicAssemblyPopup" popover>
+  <h1 class="popupTitle">Sonic Assembly Website</h1>
+  <h2 class="popupSubtitle">A website for a creative sound studio</h2>
+  <img class="popupImg" src="images/sonic.png">
+
+  <p>Sonic Assembly is the name of the creative sound studio that I run as a freelancer.  I built the website to act as an online space where I can showcase the client work that I have done, as well as share the services that I offer as a composer and sound designer. <br>
+    In it's first form, I have built the website using a template-based site-builder hosted on Wordpress.  The website is simple and is designed to give potential clients a feeling of "playfessionalism", that is professionalism meets playfulness.  For this, I focussed on an ice-cream-flavoured inspired colour-pallette, and fun fonts.<br>
+    The website has a few moving elements including a text-marquis on the about page as well as animated text on the main hero.<br> 
+  </p>
+
+  <a href="https://www.sonicassembly.se/" target="_blank">
+    <button class="popupMoreBtn">Find Out More</button>
+  </a>
+  </div>
+  </div>
+
+
+<!-- CV Section, incling id for anchor link -->
+<div class="cv" id="cvLink">
+ 
+<button id="cvBtn">+</button>
+
+<!-- The Modal -->
+<div id="cvModal" class="modal">
+
+<div class="modal-cv">
+    <span class="close">&times;</span>
+    
+    <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGUdH-0ZLY/ozHNuW6tz73hVvpfWpuoqA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGUdH-0ZLY&#x2F;ozHNuW6tz73hVvpfWpuoqA&#x2F;view?utm_content=DAGUdH-0ZLY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Minimalist CV Resume</a> by Joshua Ng
+
+  </div>
+
+  </div>
+  </div>
+
+
+
+
+<!--Contact Section-->
+
+<div class="contact" id="contactLink">
+
+  <div class="contactLeftCol">
+    <h1><br><br><br>Get in touch! <br><br></h1>
+    <h2>Joshua Ng<br>
+      joshua@sonicassembly.se <br>
+      +46 707483975
+    </h2>
+    
+    <div class="contactLinks">
+
+    <a href="https://discordapp.com/users/769115419692105759" target="_blank">Discord</a>
+    <a href="https://github.com/joshuauaua" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/joshuauaua/" target="_blank">LinkedIn</a>
+
+    </div>
+
+  </div class="contactRightCol">
+  <img  class="greekHead", src="images/tempphoto.webp">
+
+</div>
+
+
+
+<!--Footer Section-->
+<footer class="footer">
+  <h3>Made with ❤️ in Stockholm</h3> <br>
+</footer>
+
+</body>
+</html>
