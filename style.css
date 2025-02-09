@@ -73,7 +73,17 @@ p{
   color: rgb(212, 155, 41);
 }
 
+.navLinks{
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
 
+
+#logoText{
+  font-weight: 100;
+
+}
   /*Container for home page*/
 .hero{
   margin-top: auto;
@@ -287,15 +297,33 @@ p{
 }
 
 
-.greekHead{
+
+.headImgContainer{
   max-width: 40%;
-  max-height: 40%;
+  max-height:40%;
   margin-right: 20px;
   padding-left: 300px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.headImgContainer img.hoverHeadImg{
+  display: none;
+}
+
+.headImgContainer img.defaultHeadImg{
+  display: block;
+}
+
+.headImgContainer:hover img.defaultHeadImg{
+  display: none;
+}
+
+.headImgContainer:hover img.hoverHeadImg{
+  display: block;
 }
 
 @media screen and (max-width: 768px){
-  .greekHead{
+  .headImgContainer{
     display: none;
   }
 }
