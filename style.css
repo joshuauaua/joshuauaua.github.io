@@ -41,16 +41,35 @@ p{
   margin-right: 150px;
   }
 
-  .logoText{
+  #logoText{
     text-decoration: none;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 0px;
+    margin-left: 30px;
+  }
+  #altLogoText{
+    display: none;
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+  
+  }
+
+  @media screen and (max-width: 912px){
+    #logoText{
+      display: none;
+    }
+    #altLogoText{
+      display: block;
+    }
   }
   
   .logoImage
   {
-    max-width: 30px;   
-    margin-right: 10px;
+    max-width: 30px;  
+    margin-left: 10px; 
+    margin-right: auto;
   }
 
 
@@ -286,23 +305,24 @@ p{
   cursor: pointer;
 }
 
+
+/*Contact section*/
 .contact{
   display: flex;
   gap: 30px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   padding-left: 50px;
   padding-right: 5px;
   background-color: rgb(8, 218, 36);
 }
 
 
-
 .headImgContainer{
   max-width: 40%;
   max-height:40%;
-  margin-right: 20px;
-  padding-left: 300px;
+  padding-top: 50px;
+  margin-left: auto;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -329,22 +349,38 @@ p{
 }
 
 
-
-.greekHead:hover{
-  filter: drop-shadow (100px 100px 20px black);
-  transform: scale(1.05);
-}
-
 .contactLeftCol{
   display: block;
   margin-left: 30px;
-  margin-right: 360px;
+  margin-right: auto;
+}
+
+.contactText{
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .contactLinks{
   display: flex;
   gap: 20px;
 }
+
+.contactLink{
+  text-decoration: none;
+  text-decoration-style: none;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: lighter;
+}
+
+.contactLink:hover{
+  color: rgb(212, 155, 41);
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+}
+
 
 
 .footer{
