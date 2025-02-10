@@ -8,7 +8,7 @@ h2, h3{
   font-weight: 120;    
 }
 
-p{
+p, a{
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,12 +26,6 @@ p{
   align-items: center;
   display: flex;
   height: 40px;
-}
-
-@media screen and (max-width: 768px){
-  .navbar{
-    
-  }
 }
 
 /*Title/logo button*/
@@ -52,11 +46,10 @@ p{
     padding: 0px;
     margin-left: 30px;
     font-size: 12px;
-    font-weight: lighter;
-  
+    font-weight: lighter;  
   }
 
-  @media screen and (max-width: 912px){
+  @media screen and (max-width: 950px){
     #logoText{
       display: none;
     }
@@ -72,31 +65,94 @@ p{
     margin-right: auto;
   }
 
-
   /*Menu items*/
-.navMenu
-{
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  font-weight: lighter;
-  text-decoration: none;
-  justify-content: space-between;
-  margin-right: 100px;
-  margin-left: 40px;
-  gap: 100px;
-}
+  .navMenu
+  {
+    justify-content: space-between;
+    margin-right: 80px;
+  }
 
 /* Hover on menu items*/
+.navMenu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 40px;
+  gap: 90px;
+}
+
+.navMenu ul li {
+  margin: 0 10px;
+}
+
+.navMenu ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: 'Roboto';
+}
+
 .navMenu a:hover {
   color: rgb(212, 155, 41);
 }
 
-.navLinks{
-  text-decoration: none;
-  color: black;
-  font-size: medium;
+        .menu-toggle {
+          display: none;
+      }
+
+      .hamburger {
+          display: none;
+          flex-direction: column;
+          cursor: pointer;
+      }
+
+      .hamburger span {
+          background: rgb(9, 9, 9);
+          height: 1px;
+          width: 30px;
+          margin: 5px;
+          display: block;
+      }
+
+      @media screen and (max-width: 1150px) {
+          .navMenu ul {
+              display: none;
+              flex-direction: column;
+              width: 100%;
+              background: #333;
+              position: absolute;
+              top: 60px;
+              left: 0;
+              padding: 10px;
+          }
+
+          .navMenu ul li {
+              margin-bottom: 10px;
+          }
+
+          .menu-toggle:checked + .navMenu ul {
+              display: flex;
+          }
+
+          .hamburger {
+              display: flex;
+          }
+
+          .navLinks{
+            text-decoration: none;
+            color: black;
+            font-size: medium;
+          }
 }
+
+
 
 
 #logoText{
@@ -130,6 +186,7 @@ p{
       background-position: 200%;
     }
   }
+
 /* Hero text*/
 .heroText{
   margin-top: 0;
@@ -340,6 +397,7 @@ p{
 
 .headImgContainer:hover img.hoverHeadImg{
   display: block;
+  scale: 1.15; 
 }
 
 @media screen and (max-width: 768px){
@@ -374,7 +432,7 @@ p{
 }
 
 .contactLink:hover{
-  color: rgb(212, 155, 41);
+  color: blueviolet;
   font-style: italic;
   text-decoration: underline;
   text-decoration-style: wavy;
