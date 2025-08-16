@@ -11,8 +11,12 @@
   box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.1);
   line-height: 1;
   position: fixed;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 3rem;
+  left: rem;
+}
+
+.toggle:hover {
+  opacity: 1;
 }
 
 .input {

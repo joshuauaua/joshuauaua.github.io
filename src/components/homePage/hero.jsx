@@ -24,8 +24,8 @@ export default function Hero() {
             Joshua Ng. <br/>
             I build thoughtful web experiences.
           </h3>
-
-          <button className="hero-btn">⇊</button>
+          
+          <button className="hero-btn"><a href="#about" className="btn-link">⇊</a></button>
         </div>
 
         

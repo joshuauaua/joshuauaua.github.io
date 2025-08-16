@@ -1,4 +1,4 @@
-.skillset-section {
+.about-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,7 @@
   background-color: black;   /*adjust for light mode*/
 }
 
-.skillset-container {
+.about-container {
   max-width: 1200px;
   width: 100%;
   padding: 0 2rem; /* Matches .hero padding */
@@ -17,7 +17,7 @@
   gap: 1.5rem;
 }
 
-.skillset-btn {
+.about-btn {
   background-color: transparent;
   font-size: 1.2rem; /* Increased font size */
   color: rgb(255, 255, 255);  /*adjust for light mode*/
@@ -26,15 +26,15 @@
   text-align: center;
   width: fit-content;
   align-self: center;
-
+  text-decoration: none;
 }
 
-.skillset-btn:hover {
+.about-btn:hover {
   cursor: pointer;
-  color: #333;
+  color: #2ecc71;
 }
 
-.skillset-description {
+.about-description {
   color: rgb(255, 255, 255);  /*adjust for light mode*/
   border-radius: 1.5rem;
   border: none;
@@ -45,15 +45,15 @@
 }
 
 @media (max-width: 768px) {
-  .skillset-container {
+  .about-container {
     padding: 0 1rem; /* Reduced padding for smaller screens */
   }
 
-  .skillset-description {
+  .about-description {
     font-size: 28px; /* Adjusted font size for smaller screens */
   }
 
-  .skillset-btn {
+  .about-btn {
     font-size: 1rem; /* Adjusted button font size for smaller screens */
   }
 }

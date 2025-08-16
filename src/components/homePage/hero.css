@@ -48,23 +48,33 @@
 }
 
 .hero-btn {
-  margin-top: 4rem;
+  position: center;
   border: none;
   background-color: transparent;
   font-size: 4.5rem;
   color: white;
   align-self: center;
-
+  margin-bottom: none;
+  padding-bottom: none;
+  margin-top: 120px;
 }
 
+.btn-link{
+  color: white;
+}
+
+.btn-link:hover{
+  cursor: pointer;
+  color: #b8b8b8;
+  text-decoration: underline;
+
+}
 .hero-btn:hover {
   cursor: pointer;
-  color: #f0f0f0;
-  text-decoration: underline;
+  color: #b8b8b8';
 }
 
 @media (max-width: 768px) {
-  
 
   .hero-text {
     position: relative;

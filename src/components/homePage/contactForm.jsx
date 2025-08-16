@@ -32,7 +32,7 @@ export default function ContactForm(){
         ></textarea>
       </div>
 
-      <button class="sendMessage-btn">Send Message</button>
+      <button class="sendMessage-btn">Send Message ↗</button>
     </form>
   </div>
 </div>
