@@ -3,6 +3,7 @@ import SelectedProjects from "../components/homePage/selectedProjects";
 import Skillset from "../components/homePage/aboutMe";
 import LetsChat from "../components/homePage/letsChat";
 import CircularText from "../components/homePage/circularText";
+import "./Home.css";
 
 
 export default function Home() {

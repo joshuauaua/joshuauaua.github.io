@@ -1,5 +1,9 @@
 .contact-container{
   background-color: black;
+  display: flex;
+  flex-direction: column;   /* stack "Let's Chat" and button vertically */
+  align-items: center;      /* center items horizontally */
+
 }
 
 
@@ -10,9 +14,30 @@
   color: white;
 }
 
+
+.contact-btn {
+  position: relative;
+  background-color: transparent;
+  font-size: 1.2rem; /* Increased font size */
+  color: rgb(255, 255, 255);  /*adjust for light mode*/
+  border: none;
+  text-align: center;
+  width: fit-content;
+  align-self: center;
+  padding: 20px;
+  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+  color: #2ecc71;
+}
+
+
 @media screen and (max-width: 768px) {
   .lets-chat {
-    font-size: 5rem;
+    font-size: 8rem;
     padding: 2rem;
 
   }

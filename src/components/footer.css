@@ -24,7 +24,7 @@
 .footer-title {
   font-weight: bold;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .footer-list {
@@ -44,18 +44,17 @@
 }
 
 .footer-list a:hover {
-  color: #2ecc71; /* Light green hover */
+  color: #2ecc71; 
 }
 
 .footer-links-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 1rem 2rem;
+  margin-bottom: 3rem;
 }
 
 
 
-/* Responsive layout */
 @media (max-width: 600px) {
   .footer-top {
     flex-direction: column;

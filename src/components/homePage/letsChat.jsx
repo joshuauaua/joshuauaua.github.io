@@ -12,7 +12,9 @@ export default function LetsChat(){
     <div className="contact-container">
 
 
-    <h1 className="lets-chat">LET'S CHAT!</h1>
+    <h1 className="lets-chat" id="contact">LET'S CHAT!</h1>
+    <a className="contact-btn"  href="mailto:joshjoelng@gmail.com" target="_blank">Email Me ↗</a>
+
    
     </div>
      </>
