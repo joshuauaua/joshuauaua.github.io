@@ -6,8 +6,6 @@ import buildboard from "../../assets/buildboard.png";
 import velosonics from "../../assets/velosonics.webp";
 
 
-
-
 export default function SelectedProjects() {
   return (
     <>
@@ -86,12 +84,12 @@ export default function SelectedProjects() {
           />
           <ProjectCard
             project={{
-              title: "Sonic Assembly",
-              tags: ["Wordpress", "CSS", "HTML", "JavaScript"],
-              description: "Website for my creative audio studio Sonic Assembly.",
+              title: "Restaurant App",
+              tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "Minimal API with Controllers", "Entity Framework", "SQL Server",  "Swagger",],
+              description: "Webapp backend for restaurant management system, including table bookings, menu management, and order processing. Built with a .NET Core WebAPI using C# and Entity Framework for database interactions.",
               image: restaurant,
               button: {
-                link: "https://www.sonicassembly.se/", 
+                link: "https://github.com/joshuauaua/BirdAndBrew/tree/main/BirdAndBrew/", 
                 text: "View Website ↗",
               },
             }}
