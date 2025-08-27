@@ -3,7 +3,7 @@ import LightRays from "./lightRays";
 import ProjectCard from "./projectCard";
 import restaurant from "../../assets/restaurant.png";
 import buildboard from "../../assets/buildboard.png";
-import velosonics from "../../assets/velosonics.webp";
+import velosonics from "../../assets/velosonics.png";
 
 
 export default function SelectedProjects() {
@@ -50,6 +50,19 @@ export default function SelectedProjects() {
 
           <ProjectCard
             project={{
+              title: "Restaurant App",
+              tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "Minimal API with Controllers", "Entity Framework", "SQL Server",  "Swagger",],
+              description: "Backend for restaurant management system, including table bookings, menu management, and order processing. Built with a .NET Core WebAPI using C# and Entity Framework for database interactions.",
+              image: restaurant,
+              button: {
+                link: "https://github.com/joshuauaua/BirdAndBrew/tree/main/BirdAndBrew/", 
+                text: "View Code ↗",
+              },
+            }}
+          />
+
+          <ProjectCard
+            project={{
               title: "BuildBoard",
               tags: [
                 "React",
@@ -82,18 +95,7 @@ export default function SelectedProjects() {
               },
             }}
           />
-          <ProjectCard
-            project={{
-              title: "Restaurant App",
-              tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "Minimal API with Controllers", "Entity Framework", "SQL Server",  "Swagger",],
-              description: "Webapp backend for restaurant management system, including table bookings, menu management, and order processing. Built with a .NET Core WebAPI using C# and Entity Framework for database interactions.",
-              image: restaurant,
-              button: {
-                link: "https://github.com/joshuauaua/BirdAndBrew/tree/main/BirdAndBrew/", 
-                text: "View Website ↗",
-              },
-            }}
-          />
+          
         </div>
 
         <a
@@ -103,16 +105,7 @@ export default function SelectedProjects() {
         >
           View All My Projects ↗
         </a>
-        <LightRays
-          particleColors={["#ffffff", "#ffffff"]}
-          particleCount={200}
-          particleSpread={10}
-          speed={0.1}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
-          disableRotation={false}
-        />
+       
       </div>
     </>
   );
