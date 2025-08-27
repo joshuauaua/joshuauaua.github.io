@@ -1,6 +1,12 @@
 import "./selectedProjects.css";
 import LightRays from "./lightRays";
 import ProjectCard from "./projectCard";
+import restaurant from "../../assets/restaurant.png";
+import buildboard from "../../assets/buildboard.png";
+import velosonics from "../../assets/velosonics.webp";
+
+
+
 
 export default function SelectedProjects() {
   return (
@@ -58,7 +64,7 @@ export default function SelectedProjects() {
               ],
               description:
                 "An app for teams working on projects together, including chat functionality, Kanban Board and Project Mapping, Timeline and more. Built with a minimal RESTful API and a React frontend.",
-              image: "./src/assets/buildboard.webp",
+              image: buildboard,
               button: {
                 link: "Repo Link; https://git.chasacademy.dev/chas-challenge-2025/group-13/plan-IT.git",
                 text: "View Code ↗",
@@ -71,7 +77,7 @@ export default function SelectedProjects() {
               tags: ["React", "Bootstrap", "Tensorflow.js", "p5.js"],
               description:
                 "A machine learning model to classify audio samples. Built using Google's Teachable Machine and TensorFlow.js with a React frontend and p5.js for audio visualization.",
-              image: "./src/assets/velosonics.webp",
+              image: velosonics,
               button: {
                 link: "https://github.com/joshuauaua/TeachableMachine_React_Audio",
                 text: "View Code ↗",
@@ -83,7 +89,7 @@ export default function SelectedProjects() {
               title: "Sonic Assembly",
               tags: ["Wordpress", "CSS", "HTML", "JavaScript"],
               description: "Website for my creative audio studio Sonic Assembly.",
-              image: "./src/assets/sonicassembly.png",
+              image: restaurant,
               button: {
                 link: "https://www.sonicassembly.se/", 
                 text: "View Website ↗",
