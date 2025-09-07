@@ -19,10 +19,10 @@ export default function Navbar() {
           <Link to="/about">ABOUT</Link>
         </li>
         <li>
-          <Link to="#projects">PROJECTS</Link>
+          <a href="#projects">PROJECTS</a>
         </li>
         <li>
-          <Link to="#contact">CONTACT</Link>
+          <a href="#contact">CONTACT</a>
         </li>
       </ul>
 
