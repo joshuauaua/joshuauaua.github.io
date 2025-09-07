@@ -1,10 +1,18 @@
 import Silk from "/src/components/homePage/silk";
 import './mainAbout.css';
 import joshua from '/src/assets/joshua.png';
+import { useEffect } from "react"; 
 
+  
 <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={2} rotation={0} />;
 
 export default function MainAbout() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <>
       <div className="about">
