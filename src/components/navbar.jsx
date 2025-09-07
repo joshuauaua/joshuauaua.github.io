@@ -9,20 +9,20 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="Joshua Ng" className="nav-logo" />
-        </a>
+        </Link>
       </div>
 
       <ul className={`nav-links nav-right-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <a href="/about">ABOUT</a>
+          <Link to="/about">ABOUT</Link>
         </li>
         <li>
-          <a href="#projects">PROJECTS</a>
+          <Link to="#projects">PROJECTS</Link>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <Link to="#contact">CONTACT</Link>
         </li>
       </ul>
 
