@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./navbar.css";
 import logo from "../assets/logowhite.png";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,20 +9,20 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <Link to="/">
+        <HashLink smooth to="/">
           <img src={logo} alt="Joshua Ng" className="nav-logo" />
-        </Link>
+        </HashLink>
       </div>
 
       <ul className={`nav-links nav-right-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <Link to="/about">ABOUT</Link>
+          <HashLink smooth to="/about">ABOUT</HashLink>
         </li>
         <li>
-          <a href="#projects">PROJECTS</a>
+          <HashLink smooth to="#projects">PROJECTS</HashLink>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <HashLink smooth to="#contact">CONTACT</HashLink>
         </li>
       </ul>
 
