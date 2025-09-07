@@ -1,4 +1,3 @@
-import './projectCard.css';
 
 export default function ProjectCard({ project }) {
   if (!project) {
@@ -32,5 +31,8 @@ export default function ProjectCard({ project }) {
         </a>
       </div>
     </div>
+
+
+
   );
 }

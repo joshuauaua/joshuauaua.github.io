@@ -16,7 +16,7 @@ export default function Navbar() {
 
       <ul className={`nav-links nav-right-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="/about">ABOUT</a>
         </li>
         <li>
           <a href="#projects">PROJECTS</a>

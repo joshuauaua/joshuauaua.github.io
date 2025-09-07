@@ -14,7 +14,7 @@ export default function Skillset(){
 
     <p className="about-description">
     I’m a full-stack developer and creative technologist based in Stockholm, with a background in project management. <br /> I thrive on solving complex challenges and enjoy crafting web applications as immersive, user-driven digital experiences.  </p>
-    <a href="https://www.linkedin.com/in/joshuauaua/" target="_blank" className="about-btn">Find Out More ↗</a>
+    <Link to="/about" className="about-btn">Find Out More ↗</Link>
     </div>
     </div>
     
