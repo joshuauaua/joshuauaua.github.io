@@ -19,6 +19,10 @@
   padding-bottom: 120px;
   padding-left: 50px;
   padding-right: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .about-img{
@@ -41,6 +45,24 @@ a:hover {
   color:  #2ecc71;
   text-decoration: underline;
 }
+
+
+
+.about-btn {
+  background-color: transparent;
+  font-size: 1.2rem; /* Increased font size */
+  color: rgb(255, 255, 255);  /*adjust for light mode*/
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);  /*adjust for light mode*/
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-btn:hover {
+  cursor: pointer;
+  color: #2ecc71;
+}
+
 
 
 @media (max-width: 768px) {

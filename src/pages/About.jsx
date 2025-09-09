@@ -54,6 +54,8 @@ export default function MainAbout() {
               stories, and shaping positive change.
             </p>
           </div>
+          <a href="/JoshuaNg_CV.pdf" target="_blank" rel="noopener noreferrer" className="about-btn">Check Out My CV ↗</a>
+
         </div>
       </div>
     </>
