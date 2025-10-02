@@ -2,6 +2,8 @@ import Silk from "/src/components/homePage/silk";
 import './About.css';
 import joshua from '/src/assets/joshua.png';
 import { useEffect } from "react"; 
+import CV from "/src/assets/JoshuaNg_CV.pdf";
+
 
   
 <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={2} rotation={0} />;
@@ -54,7 +56,7 @@ export default function MainAbout() {
               stories, and shaping positive change.
             </p>
           </div>
-          <a href="/JoshuaNg_CV.pdf" target="_blank" rel="noopener noreferrer" className="about-btn">Check Out My CV ↗</a>
+          <a href={CV} target="_blank" rel="noopener noreferrer" className="about-btn">Check Out My CV ↗</a>
 
         </div>
       </div>
