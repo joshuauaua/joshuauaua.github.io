@@ -7,26 +7,19 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${menuOpen ? "menu-active" : ""}`}>
       <div className="nav-left">
-        <HashLink smooth to="/">
-          <img src={logo} alt="Joshua Ng" className="nav-logo" />
+        <HashLink smooth to="/" onClick={() => setMenuOpen(false)}>
+          <img src={logo} alt="Joshua Ng Logo" className="nav-logo" />
         </HashLink>
       </div>
 
-      <ul className={`nav-links nav-right-links ${menuOpen ? "open" : ""}`}>
-        <li>
-          <HashLink smooth to="/about">ABOUT</HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="/#projects">PROJECTS</HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="/#contact">CONTACT</HashLink>
-        </li>
+      <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+        <li><HashLink smooth to="/about" onClick={() => setMenuOpen(false)}>ABOUT</HashLink></li>
+        <li><HashLink smooth to="/#projects" onClick={() => setMenuOpen(false)}>PROJECTS</HashLink></li>
+        <li><HashLink smooth to="/#contact" onClick={() => setMenuOpen(false)}>CONTACT</HashLink></li>
       </ul>
 
-      {/* Hamburger Button */}
       <div
         className={`hamburger ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}

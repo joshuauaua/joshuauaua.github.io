@@ -13,11 +13,15 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
     "@tailwindcss/vite": "^4.1.12",
+    "bootstrap": "^5.3.8",
+    "flowbite-react": "^0.12.9",
     "framer-motion": "^12.23.12",
     "gl-matrix": "^3.4.3",
+    "gsap": "^3.13.0",
     "ogl": "^1.0.11",
     "rc-footer": "^0.6.8",
     "react": "^19.1.0",

@@ -16,22 +16,25 @@ export default function Footer() {
 
         {/* Right Section - Links */}
         <div className="footer-section">
-          <h3 className="footer-title">LET'S CONNECT</h3>
+          <h3 className="footer-title">LET’S CONNECT</h3>
           <div className="footer-links-grid">
             <ul className="footer-list">
-              <li><a href="https://github.com/joshuauaua" target="blank">GitHub</a></li>
-              <li><a href="https://discord.com/users/%20769115419692105759">Discord</a></li>
-              <li><a href="https://www.linkedin.com/in/joshuauaua/">LinkedIn</a></li>
+              <li><a href="https://github.com/joshuauaua" target="_blank">GitHub</a></li>
+              <li><a href="https://discord.com/users/769115419692105759" target="_blank">Discord</a></li>
+              <li><a href="https://www.linkedin.com/in/joshuauaua/" target="_blank">LinkedIn</a></li>
             </ul>
             <ul className="footer-list">
-              <li><a href="https://sonicassembly.substack.com/">Substack</a></li>
-              <li><a href="https://www.instagram.com/joshuauaua/">Instagram</a></li>
+              <li><a href="https://sonicassembly.substack.com/" target="_blank">Substack</a></li>
+              <li><a href="https://www.instagram.com/joshuauaua/" target="_blank">Instagram</a></li>
             </ul>
           </div>
         </div>
       </div>
 
-  
+      {/* Bottom */}
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} Joshua Ng — All Rights Reserved.</p>
+      </div>
     </footer>
   );
 }

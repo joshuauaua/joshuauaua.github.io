@@ -1,11 +1,9 @@
-import "./selectedProjects.css";
 import LightRays from "./lightRays";
 import ProjectCard from "./projectCard";
 import restaurant from "../../assets/restaurant.png";
 import buildboard from "../../assets/buildboard.png";
 import velosonics from "../../assets/velosonics.png";
-
-import Card from "./card";
+import "./selectedProjects.css"
 
 export default function SelectedProjects() {
   return (

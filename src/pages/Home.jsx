@@ -5,11 +5,9 @@ import LetsChat from "../components/homePage/letsChat";
 import CircularText from "../components/homePage/circularText";
 import "./Home.css";
 
-
 export default function Home() {
   return (
     <>
-
       <Hero />
       <CircularText
         text="CREATIVE TECHNOLOGIST * FULLSTACK DEVELOPER * "
@@ -18,10 +16,9 @@ export default function Home() {
         className="custom-class"
       />
       <Skillset />
+     
       <SelectedProjects />
       <LetsChat />
-
-      
     </>
   );
 }
