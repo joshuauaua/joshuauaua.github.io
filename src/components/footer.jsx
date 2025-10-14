@@ -33,7 +33,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Joshua Ng — All Rights Reserved.</p>
+        <p> Maved with ❤️ in Stockholm  </p>
       </div>
     </footer>
   );

@@ -49,6 +49,24 @@ export default function SelectedProjects() {
 
           <ProjectCard
             project={{
+              title: "Hyper Radio",
+              tags: [".NET Core WebAPI", "C#", "HTTP LiveStreaming", "FFMPEG", "Entity Framework", "SQL Server",  "WebAudio API",],
+              description: "Web radio music streaming platform that allows users to submit mp3 files with accompanying data and tracks get placed in relevant playlists for playback in a stream.",
+              image: restaurant,
+              button: {
+                link: "https://github.com/Hyper-Radio", 
+                text: "View Code ↗",
+              },
+              button: {
+                link: "https://hyperradio.online/", 
+                text: "Join Waitlist ↗",
+              },
+            }}
+          />
+
+
+          <ProjectCard
+            project={{
               title: "Restaurant App",
               tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "Minimal API with Controllers", "Entity Framework", "SQL Server",  "Swagger",],
               description: "Backend for restaurant management system, including table bookings, menu management, and order processing. Built with a .NET Core WebAPI using C# and Entity Framework for database interactions.",
