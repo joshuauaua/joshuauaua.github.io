@@ -1,5 +1,5 @@
-import "./hero.css";
-import Silk from "./silk";
+import "./Hero.css";
+import Silk from "./Silk.jsx";
 
 
 <Silk

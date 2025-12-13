@@ -1,5 +1,5 @@
 
-import './toggle.css'
+import './Toggle.css'
 
 export default function Toggle() {
 

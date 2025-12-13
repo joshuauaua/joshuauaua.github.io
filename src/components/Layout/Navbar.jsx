@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./navbar.css";
-import logo from "../assets/logowhite.png";
+import "./Navbar.css";
+import logo from "../../assets/logowhite.png";
 import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {

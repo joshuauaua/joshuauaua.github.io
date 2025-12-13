@@ -1,8 +1,8 @@
-import Hero from "../components/homePage/hero";
-import SelectedProjects from "../components/homePage/selectedProjects";
-import Skillset from "../components/homePage/aboutMe";
-import LetsChat from "../components/homePage/letsChat";
-import CircularText from "../components/homePage/circularText";
+import Hero from "../components/Home/Hero";
+import SelectedProjects from "../components/Home/SelectedProjects";
+import Skillset from "../components/Home/AboutMe";
+import LetsChat from "../components/Home/LetsChat";
+import CircularText from "../components/Home/CircularText";
 import "./Home.css";
 
 export default function Home() {

@@ -1,9 +1,9 @@
-import LightRays from "./lightRays";
-import ProjectCard from "./projectCard";
+import LightRays from "./LightRays.jsx";
+import ProjectCard from "./ProjectCard.jsx";
 import restaurant from "../../assets/restaurant.png";
 import buildboard from "../../assets/buildboard.png";
 import velosonics from "../../assets/velosonics.png";
-import "./selectedProjects.css"
+import "./SelectedProjects.css"
 
 export default function SelectedProjects() {
   return (
@@ -53,10 +53,6 @@ export default function SelectedProjects() {
               tags: [".NET Core WebAPI", "C#", "HTTP LiveStreaming", "FFMPEG", "Entity Framework", "SQL Server",  "WebAudio API",],
               description: "Web radio music streaming platform that allows users to submit mp3 files with accompanying data and tracks get placed in relevant playlists for playback in a stream.",
               image: restaurant,
-              button: {
-                link: "https://github.com/Hyper-Radio", 
-                text: "View Code ↗",
-              },
               button: {
                 link: "https://hyperradio.online/", 
                 text: "Join Waitlist ↗",

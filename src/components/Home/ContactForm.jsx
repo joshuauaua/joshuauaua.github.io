@@ -1,4 +1,4 @@
-import './contactForm.css';
+import './ContactForm.css';
 
 export default function ContactForm(){
 

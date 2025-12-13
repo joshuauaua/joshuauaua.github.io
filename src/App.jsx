@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Footer from './components/footer.jsx'
-import Navbar from './components/navbar.jsx'
+import Footer from './components/Layout/Footer.jsx'
+import Navbar from './components/Layout/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 

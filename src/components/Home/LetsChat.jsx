@@ -1,7 +1,7 @@
-import './letsChat.css';
-import ContactForm from './contactForm';
+import './LetsChat.css';
+import ContactForm from './ContactForm.jsx';
 
-import LightRays from './lightRays';
+import LightRays from './LightRays.jsx';
 
 export default function LetsChat(){
 

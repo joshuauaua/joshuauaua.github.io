@@ -1,4 +1,4 @@
-import './aboutMe.css';  
+import './AboutMe.css';  
 import { Link } from 'react-router-dom';
 
 

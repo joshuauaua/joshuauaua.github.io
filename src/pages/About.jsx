@@ -1,4 +1,4 @@
-import Silk from "/src/components/homePage/silk";
+import Silk from "../components/Home/Silk.jsx";
 import './About.css';
 import joshua from '/src/assets/joshua.png';
 import { useEffect } from "react"; 
