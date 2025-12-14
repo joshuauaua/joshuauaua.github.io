@@ -19,7 +19,6 @@ export default function MainAbout() {
     <>
       <div className="about">
         <div className="about-background">
-          <Silk className="about-background-image" alt="Silk background" />
         </div>
 
         <div className="about-content">
@@ -28,7 +27,7 @@ export default function MainAbout() {
           <div>
             <p className="about-text">
               Like many before me, my path into programming hasn’t been a
-              straight line. For over a decade, I worked in the creative
+              straight line. For nearly a decade, I worked in the creative
               industries as a project leader and producer, where I explored the
               intersection of art, culture, and technology. Along the way, I
               helped build a <a href="https://www.theguardian.com/cities/2015/mar/18/future-city-halls-malmo-tallinn-communities-power" target="_blank" rel="noopener noreferrer" to="">crowdsourced living room in Malmö</a>, set up a
@@ -45,15 +44,11 @@ export default function MainAbout() {
               turning point: it showed me the power of combining digital tools
               with my creative background.
               <br></br><br></br>
-              Over the years, my curiosity about
-              coding kept growing. Eventually, I decided to formalize it and
-              pursue a fullstack development education to understand what
-              happens under the hood and to gain the skills to build my own
-              tools. Today, I’m diving deep into .NET Core, MVC, React, and Git, while also expanding into RESTful APIs, SQL, and agile teamwork—keeping an eye on broader shifts in AI, machine learning, and emerging technologies. 
-              We’re living in a moment where technology
-              and society intersect more than ever before, and I’m excited by
-              the possibilities this creates—for building tools, telling
-              stories, and shaping positive change.
+              Currently, I am in the process of learning how to combine my background from the creative industries
+              with my interest in building digital products and experiences. I am currently diving deep
+              into .NET, React and a range of tools and technologies. But beyomnd that, I am trying to understand
+              the broader shifts in emerging technologies, best practices in software engineering/architecture, 
+              and keeping a positive outlook on the potential there are for these tools to shape a better world. 
             </p>
           </div>
           <a href={CV} target="_blank" rel="noopener noreferrer" className="about-btn">Check Out My CV ↗</a>
