@@ -76,22 +76,20 @@ export default function SelectedProjects() {
 
           <ProjectCard
             project={{
-              title: "BuildBoard",
+              title: "Sonic Assembly",
               tags: [
                 "React",
                 "CSS",
-                "ASP.NET",
-                "MySQL",
-                "Tailwind",
+                "Tailwind CSS",
+                "Html",
                 "Javascript",
-                "C#",
               ],
               description:
-                "An app for teams working on projects together, including chat functionality, Kanban Board and Project Mapping, Timeline and more. Built with a minimal RESTful API and a React frontend.",
+                "I built the website for my company, Sonic Assembly. I aimed to design a 'play-fessional' experience that showcase the different projects I have worked on, but also present the company as a serious collaborator in the industry.",
               image: buildboard,
               button: {
-                link: "Repo Link; https://git.chasacademy.dev/chas-challenge-2025/group-13/plan-IT.git",
-                text: "View Code ↗",
+                link: "http://sonicassembly.se/",
+                text: "View Website ↗",
               },
             }}
           />
