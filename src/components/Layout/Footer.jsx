@@ -9,7 +9,6 @@ export default function Footer() {
           <h3 className="footer-title">CONTACT INFO</h3>
           <ul className="footer-list">
             <li>joshjoelng@gmail.com</li>
-            <li>+46 (0)7 0748 3975</li>
             <li>Stockholm, Sweden</li>
           </ul>
         </div>
@@ -24,7 +23,7 @@ export default function Footer() {
               <li><a href="https://www.linkedin.com/in/joshuauaua/" target="_blank">LinkedIn</a></li>
             </ul>
             <ul className="footer-list">
-              <li><a href="https://sonicassembly.substack.com/" target="_blank">Substack</a></li>
+              <li><a href="https://sonicassembly.substack.com/" target="_blank">Substack/Blog</a></li>
               <li><a href="https://www.instagram.com/joshuauaua/" target="_blank">Instagram</a></li>
             </ul>
           </div>
@@ -33,7 +32,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        <p> Maved with ❤️ in Stockholm  </p>
+        <p> Made with ❤️ in Stockholm  </p>
       </div>
     </footer>
   );

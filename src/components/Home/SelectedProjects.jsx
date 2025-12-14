@@ -50,7 +50,7 @@ export default function SelectedProjects() {
           <ProjectCard
             project={{
               title: "Hyper Radio",
-              tags: [".NET Core WebAPI", "C#", "HTTP LiveStreaming", "FFMPEG", "Entity Framework", "SQL Server",  "WebAudio API",],
+              tags: [".NET Core WebAPI", "C#", "HTTP LiveStreaming", "React", "FFMPEG", "Entity Framework", "SQL Server",  "WebAudio API",],
               description: "Web radio music streaming platform that allows users to submit mp3 files with accompanying data and tracks get placed in relevant playlists for playback in a stream.",
               image: restaurant,
               button: {
@@ -63,12 +63,12 @@ export default function SelectedProjects() {
 
           <ProjectCard
             project={{
-              title: "Restaurant App",
-              tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "Minimal API with Controllers", "Entity Framework", "SQL Server",  "Swagger",],
-              description: "Backend for restaurant management system, including table bookings, menu management, and order processing. Built with a .NET Core WebAPI using C# and Entity Framework for database interactions.",
+              title: "Open Audio Streaming Kit",
+              tags: [".NET Core WebAPI", "C#", "DI/Repo Pattern", "React", "Entity Framework", "SQL Server",],
+              description: "Open source audio streaming kit built in C#. Allows users to build their own modular audio streaming platform while taking care of different complex backend services, such as HLS conversion, Blob storage management and persistent audio player frontend.",
               image: restaurant,
               button: {
-                link: "https://github.com/joshuauaua/BirdAndBrew/tree/main/BirdAndBrew/", 
+                link: "https://github.com/joshuauaua/Open-Audio-Streaming-Kit", 
                 text: "View Code ↗",
               },
             }}
@@ -100,7 +100,7 @@ export default function SelectedProjects() {
               title: "Velosonics",
               tags: ["React", "Bootstrap", "Tensorflow.js", "p5.js"],
               description:
-                "A machine learning model to classify audio samples. Built using Google's Teachable Machine and TensorFlow.js with a React frontend and p5.js for audio visualization.",
+                "Commissioned by the Goethe Institutte, an audio classification tool built using Google's Teachable Machine and TensorFlow.js with a React frontend and p5.js for audio visualization. Pilot project tested to detect maintenance issues in delivery bikes in Italy using audio recordings",
               image: velosonics,
               button: {
                 link: "https://github.com/joshuauaua/TeachableMachine_React_Audio",
