@@ -60,7 +60,7 @@ a:hover {
 
 .about-btn:hover {
   cursor: pointer;
-  color: #2ecc71;
+  color: lch(94.06% 91.68 99.8);
 }
 
 
