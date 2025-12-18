@@ -78,7 +78,6 @@ export default function SelectedProjects() {
             project={{
               title: "Sonic Assembly",
               tags: [
-                "React",
                 "CSS",
                 "Tailwind CSS",
                 "Html",
