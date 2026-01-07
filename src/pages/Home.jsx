@@ -6,6 +6,7 @@ import ShinyText from '../components/ShinyText';
 import HoverModal from '../components/HoverModal';
 import Silk from '../components/Silk';
 import projectsData from '../data/projects.json';
+import SEO from '../components/SEO';
 import './Home.css';
 
 const Home = () => {
@@ -32,6 +33,10 @@ const Home = () => {
   
   return (
     <div className="home-page">
+      <SEO 
+        title="Home" 
+        description="Portfolio of Joshua Ng, a Creative Technologist merging coding mastery with artistic vision." 
+      />
       <section className="hero-section">
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
           <Silk 

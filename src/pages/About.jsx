@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import './About.css';
 
 const About = () => {
@@ -16,6 +17,11 @@ const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <SEO 
+        title="About Me" 
+        description="Learn more about Joshua Ng, a multidisciplinary developer and creative technologist." 
+        url="/about"
+      />
       <div className="about-header">
         <h1>About Me</h1>
       </div>

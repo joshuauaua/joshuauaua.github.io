@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Github, Globe } from 'lucide-react';
+import SEO from '../components/SEO';
 import projectsData from '../data/projects.json';
 import './ProjectDetail.css';
 
@@ -32,6 +33,12 @@ const ProjectDetail = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <SEO 
+        title={project.title} 
+        description={project.description.slice(0, 160)}
+        image={project.image}
+        url={`/project/${project.slug}`}
+      />
       <div className="project-header-image">
         <img src={project.headerImage} alt={project.title} />
         <div className="header-overlay"></div>

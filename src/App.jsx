@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import BubbleMenu from './components/BubbleMenu';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -46,8 +47,9 @@ const menuItems = [
 
 function App() {
   return (
-    <Router>
-      <div className="app-wrapper">
+    <HelmetProvider>
+      <Router>
+        <div className="app-wrapper">
         <BubbleMenu
           logo={<span style={{ fontWeight: 700 }}>Joshua Ng</span>}
           items={menuItems}
@@ -68,8 +70,9 @@ function App() {
           </Routes>
         </main>
         <Footer />
-      </div>
-    </Router>
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 

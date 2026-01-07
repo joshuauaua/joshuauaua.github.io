@@ -9,7 +9,7 @@
       "Frontend",
       "React"
     ],
-    "category": "Web",
+    "category": "Website",
     "selected": true,
     "metadata": {
       "format": "Website",
@@ -60,55 +60,28 @@
   {
     "id": "open-audio-kit",
     "slug": "open-audio-kit",
-    "title": "Open Audio Kit",
+    "title": "Open Audio Streaming Kit",
     "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
     "headerImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
     "tags": [
       "Open Source",
-      "Library",
-      "React"
+      "Streaming Kit",
+      "C#",
+      "HLS",
+      "FFMPEG"
     ],
-    "category": "Open Source Library",
-    "selected": false,
+    "category": "Open Source Streaming Kit",
+    "selected": true,
     "metadata": {
-      "format": "NPM Package",
-      "year": "2023",
-      "client": "Community",
-      "collaborators": "Contributors"
+      "format": "Open Source Repo",
+      "year": "2025",
+      "collaborators": "Axel Schubert"
     },
-    "description": "A lightweight React hook library for handling Web Audio API contexts, buffers, and nodes. It simplifies the boilerplate required to get audio running in the browser.\n\nFeatures include auto-resume on user gesture, easy sample loading, and a built-in analysis node hook for visualizers.",
+    "description": "Open-source kit for converting audio into HLS format and uploading to Blob Storage. Includes a simple MVC UI, EF Core sample setup, and ffmpeg processing to support streaming playback workflows. Ideal for media apps looking to implement streaming functionality.",
     "video": "",
     "images": [],
     "links": {
-      "repo": "https://github.com/joshua-ng/open-audio-kit",
-      "live": "https://npmjs.com/package/open-audio-kit"
-    }
-  },
-  {
-    "id": "data-scape",
-    "slug": "data-scape",
-    "title": "Data Scape",
-    "image": "https://images.unsplash.com/photo-1506318137071-a8bcbf6755dd?q=80&w=2940&auto=format&fit=crop",
-    "headerImage": "https://images.unsplash.com/photo-1506318137071-a8bcbf6755dd?q=80&w=2940&auto=format&fit=crop",
-    "tags": [
-      "Visualization",
-      "Three.js",
-      "WebGL"
-    ],
-    "category": "Visualization",
-    "selected": false,
-    "metadata": {
-      "format": "Web Experience",
-      "year": "2020",
-      "client": "Tech Corp",
-      "collaborators": "None"
-    },
-    "description": "A 3D data visualization dashboard built with Three.js. It transforms complex server metrics into a navigable cityscape, where building heights represent load and traffic density is shown as moving particles.",
-    "video": "",
-    "images": [],
-    "links": {
-      "repo": "",
-      "live": "https://datascape.demo"
+      "repo": "https://github.com/joshuauaua/Open-Audio-Streaming-Kit"
     }
   },
   {
@@ -123,7 +96,7 @@
       "Audio"
     ],
     "category": "Web Application",
-    "selected": true,
+    "selected": false,
     "metadata": {
       "format": "Web Application",
       "year": "2023",
