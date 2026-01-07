@@ -51,7 +51,7 @@ function App() {
       <Router>
         <div className="app-wrapper">
         <BubbleMenu
-          logo={<span style={{ fontWeight: 700 }}>Joshua Ng</span>}
+          logo={<img src="/assets/joshuanglogo.svg" alt="Joshua Ng Logo" className="nav-logo-img" />}
           items={menuItems}
           menuAriaLabel="Toggle navigation"
           menuBg="#000000"

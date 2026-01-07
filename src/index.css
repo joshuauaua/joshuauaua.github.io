@@ -27,6 +27,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-logo-img {
+  height: 24px;
+  width: auto;
+  transition: filter 0.3s ease;
+  /* Default Dark Mode: Logo (assumed black) needs to be White -> Invert */
+  filter: invert(1);
+}
+
+[data-theme='light'] .nav-logo-img {
+  /* Light Mode: Logo needs to be Black -> No Invert */
+  filter: invert(0);
 }
 
 html,
