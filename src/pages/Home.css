@@ -1,0 +1,144 @@
+.home-page {
+  padding-top: 100px;
+}
+
+.hero-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  /* Responsive font sizing */
+  line-height: 1.1;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.hero-content .text-white {
+  color: white;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.about-teaser-section {
+  padding: 8rem 2rem;
+}
+
+.about-teaser-text p {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: 1.4;
+  max-width: 900px;
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.selected-projects-section {
+  padding: 4rem 0 8rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+}
+
+.carousel-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: white;
+  color: black;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem 0;
+  /* Space for shadow/hover scaling */
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 50%;
+  padding: 0 1.5rem;
+  /* Gap between items */
+}
+
+/* Fix first and last item padding alignment if needed, or simple consistent padding is fine */
+
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 100%;
+    padding: 0;
+  }
+
+  .section-header {
+    margin-bottom: 2rem;
+  }
+}

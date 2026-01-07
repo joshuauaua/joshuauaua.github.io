@@ -1,0 +1,145 @@
+[
+  {
+    "id": "hyper-radio",
+    "slug": "hyper-radio",
+    "title": "Hyper Radio",
+    "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2940&auto=format&fit=crop",
+    "headerImage": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2940&auto=format&fit=crop",
+    "tags": [
+      "Web Application",
+      "React",
+      "Audio"
+    ],
+    "category": "Web Application",
+    "selected": true,
+    "metadata": {
+      "format": "Web Application",
+      "year": "2023",
+      "client": "Personal Project",
+      "collaborators": "None"
+    },
+    "description": "Hyper Radio is an experimental web-based radio station that procedurally generates audio landscapes. Leveraging the Web Audio API, it creates infinite, evolving soundscapes that react to user interaction. \n\nThe project explores the intersection of code and music composition, allowing users to influence the generative parameters in real-time.",
+    "video": "",
+    "images": [
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop"
+    ],
+    "links": {
+      "repo": "https://github.com/joshua-ng/hyper-radio",
+      "live": "https://hyper-radio.demo"
+    }
+  },
+  {
+    "id": "sonic-assembly",
+    "slug": "sonic-assembly",
+    "title": "Sonic Assembly",
+    "image": "https://images.unsplash.com/photo-1558486012-817147316be7?q=80&w=2678&auto=format&fit=crop",
+    "headerImage": "https://images.unsplash.com/photo-1558486012-817147316be7?q=80&w=2678&auto=format&fit=crop",
+    "tags": [
+      "Audio Tech",
+      "C++",
+      "DSP"
+    ],
+    "category": "Audio Tech",
+    "selected": true,
+    "metadata": {
+      "format": "Desktop Software",
+      "year": "2022",
+      "client": "Open Source",
+      "collaborators": "Audio Lab Group"
+    },
+    "description": "Sonic Assembly is a modular audio processing toolkit built in C++. It features a node-based interface for constructing complex signal chains and real-time DSP effects.\n\nDesigned for sound designers and experimental musicians, it provides low-level access to audio buffer manipulation while maintaining a user-friendly visual graph.",
+    "video": "",
+    "images": [
+      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2940&auto=format&fit=crop"
+    ],
+    "links": {
+      "repo": "https://github.com/joshua-ng/sonic-assembly",
+      "live": ""
+    }
+  },
+  {
+    "id": "velosonics",
+    "slug": "velosonics",
+    "title": "Velosonics",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2940&auto=format&fit=crop",
+    "headerImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2940&auto=format&fit=crop",
+    "tags": [
+      "Installation",
+      "Arduino",
+      "Sensors"
+    ],
+    "category": "Installation",
+    "selected": true,
+    "metadata": {
+      "format": "Physical Installation",
+      "year": "2021",
+      "client": "City Art Council",
+      "collaborators": "Jane Doe (Architect)"
+    },
+    "description": "Velosonics is an interactive light and sound installation powered by bicycle movement. Using Arduino and custom sensors, the speed and rhythm of cyclists are translated into visual patterns on a 50ft LED wall.\n\nThe installation aims to visualize the flow of urban movement and encourage sustainable transport through play.",
+    "video": "",
+    "images": [
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2940&auto=format&fit=crop"
+    ],
+    "links": {
+      "repo": "",
+      "live": ""
+    }
+  },
+  {
+    "id": "open-audio-kit",
+    "slug": "open-audio-kit",
+    "title": "Open Audio Kit",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
+    "headerImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
+    "tags": [
+      "Open Source",
+      "Library",
+      "React"
+    ],
+    "category": "Open Source Library",
+    "selected": false,
+    "metadata": {
+      "format": "NPM Package",
+      "year": "2023",
+      "client": "Community",
+      "collaborators": "Contributors"
+    },
+    "description": "A lightweight React hook library for handling Web Audio API contexts, buffers, and nodes. It simplifies the boilerplate required to get audio running in the browser.\n\nFeatures include auto-resume on user gesture, easy sample loading, and a built-in analysis node hook for visualizers.",
+    "video": "",
+    "images": [],
+    "links": {
+      "repo": "https://github.com/joshua-ng/open-audio-kit",
+      "live": "https://npmjs.com/package/open-audio-kit"
+    }
+  },
+  {
+    "id": "data-scape",
+    "slug": "data-scape",
+    "title": "Data Scape",
+    "image": "https://images.unsplash.com/photo-1506318137071-a8bcbf6755dd?q=80&w=2940&auto=format&fit=crop",
+    "headerImage": "https://images.unsplash.com/photo-1506318137071-a8bcbf6755dd?q=80&w=2940&auto=format&fit=crop",
+    "tags": [
+      "Visualization",
+      "Three.js",
+      "WebGL"
+    ],
+    "category": "Visualization",
+    "selected": false,
+    "metadata": {
+      "format": "Web Experience",
+      "year": "2020",
+      "client": "Tech Corp",
+      "collaborators": "None"
+    },
+    "description": "A 3D data visualization dashboard built with Three.js. It transforms complex server metrics into a navigable cityscape, where building heights represent load and traffic density is shown as moving particles.",
+    "video": "",
+    "images": [],
+    "links": {
+      "repo": "",
+      "live": "https://datascape.demo"
+    }
+  }
+]

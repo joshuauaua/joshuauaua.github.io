@@ -1,0 +1,33 @@
+.circular-text {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  position: relative;
+  height: 200px;
+  font-weight: bold;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 14px;
+  /* Reduced from 24px because 24px might be too big for long strings */
+  height: 200px;
+  /* span needs height to match container to center properly with the translate method? No, wait. */
+  /* Reverting to user provided CSS logic but ensuring centering */
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 0;
+  /* Important for the rotate+translate method */
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}

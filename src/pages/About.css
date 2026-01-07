@@ -1,0 +1,75 @@
+.about-page {
+  padding-top: 150px;
+  padding-bottom: 5rem;
+}
+
+.about-header h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.bio-lead {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.bio-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.expertise-section h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.expertise-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.expertise-card ul {
+  list-style: none;
+}
+
+.expertise-card li {
+  margin-bottom: 0.5rem;
+  color: var(--text-muted);
+  position: relative;
+  padding-left: 1rem;
+}
+
+.expertise-card li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+}
