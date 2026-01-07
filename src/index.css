@@ -33,7 +33,7 @@
 }
 
 .nav-logo-img {
-  height: 72px;
+  height: 144px;
   width: auto;
   transition: filter 0.3s ease;
   /* Default Dark Mode: Logo (assumed black) needs to be White -> Invert */
