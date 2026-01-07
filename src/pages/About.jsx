@@ -27,10 +27,13 @@ const About = () => {
           </p>
           <div className="bio-text">
             <p>
-              My journey began in the creative industries, working with global brands like Google and Fujifilm. I discovered a passion for the systems under the hood—the code that powers experiences.
+              My path into programming wasn’t a straight line. For nearly a decade, I worked in the creative industries as a project leader and producer, exploring the intersection of art, culture, and technology. From building a crowdsourced living room in Malmö to founding a creative sound studio for clients like Google and Fujifilm, I’ve always been driven by impactful experiences.
             </p>
             <p>
-              Today, I specialize in building robust fullstack applications with a focus on audio and visual interactivity. Whether it's a web-based synthesiser or an enterprise management system, I bring the same level of polish and performance.
+              A turning point came when I developed a machine learning tool to analyze audio for delivery bicycles—revealing the power of combining digital tools with my creative background.
+            </p>
+            <p>
+              Today, I’m focused on building digital products using .NET, React, and emerging technologies, striving to create tools that shape a better world.
             </p>
           </div>
         </div>
