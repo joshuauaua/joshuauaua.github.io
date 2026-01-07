@@ -1,9 +1,11 @@
 .home-page {
-  padding-top: 100px;
+  /* padding-top removed to allow hero to reach top */
 }
 
 .hero-section {
-  min-height: 80vh;
+  min-height: 100vh;
+  padding-top: 100px;
+  /* Add padding here to account for hidden page padding and navbar */
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -25,7 +25,7 @@ const DEFAULT_ITEMS = [
     href: '/projects',
     ariaLabel: 'Projects',
     rotation: 8,
-    hoverStyles: { bgColor: '#f59e0b', textColor: '#ffffff' }
+    hoverStyles: { bgColor: '#FFD60A', textColor: '#ffffff' }
   },
   {
     label: 'contact',

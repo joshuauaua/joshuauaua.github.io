@@ -5,7 +5,7 @@
   --bg-color: #000000;
   --text-main: #ffffff;
   --text-muted: #a3a3a3;
-  --accent: #f59e0b;
+  --accent: #FFD60A;
   --glow-color: rgba(59, 130, 246, 0.15);
   /* Blue subtle glow */
   --font-body: 'Cardo', serif;
@@ -17,7 +17,7 @@
   --bg-color: #fcfbf4;
   --text-main: #111111;
   --text-muted: #555555;
-  --accent: #f59e0b;
+  --accent: #FFD60A;
   /* Keep accent same or adjust */
   --glow-color: rgba(59, 130, 246, 0.05);
   /* Lighter glow */

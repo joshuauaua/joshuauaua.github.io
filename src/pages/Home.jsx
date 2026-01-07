@@ -4,6 +4,7 @@ import { ArrowDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from '../components/ProjectCard';
 import ShinyText from '../components/ShinyText';
 import HoverModal from '../components/HoverModal';
+import Silk from '../components/Silk';
 import projectsData from '../data/projects.json';
 import './Home.css';
 
@@ -31,30 +32,41 @@ const Home = () => {
   
   return (
     <div className="home-page">
-      <section className="hero-section container">
-        <div className="hero-content">
-          <motion.h1 
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Hello! <br />
-            My name is <span className="text-white">Joshua Ng</span>.
-            <br />
-            I find <ShinyText text="digital solutions" disabled={false} speed={2} className="custom-class" /> to <ShinyText text="human problems" disabled={false} speed={1.5} className="custom-class" />.
-          </motion.h1>
-          
-          <motion.div 
-            className="scroll-indicator"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-            onClick={scrollToNextSection}
-            style={{ cursor: 'pointer' }}
-          >
-            <ArrowDown className="bounce" size={32} color="var(--accent)" />
-          </motion.div>
+      <section className="hero-section">
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
+          <Silk 
+            speed={5} 
+            scale={1} 
+            color="#7B7481" 
+            noiseIntensity={1.5} 
+            rotation={0} 
+          />
         </div>
+        <div className="container" style={{ position: 'relative', zIndex: 1, width: '100%' }}>
+          <div className="hero-content">
+            <motion.h1 
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              Hello! <br />
+              My name is <span className="text-white">Joshua Ng</span>.
+              <br />
+              I find <ShinyText text="digital solutions" disabled={false} speed={2} className="custom-class" /> to <ShinyText text="human problems" disabled={false} speed={1.5} className="custom-class" />.
+            </motion.h1>
+          </div>
+        </div>
+          
+        <motion.div 
+          className="scroll-indicator"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+          onClick={scrollToNextSection}
+          style={{ cursor: 'pointer', zIndex: 2 }}
+        >
+          <ArrowDown className="bounce" size={32} color="var(--accent)" />
+        </motion.div>
       </section>
 
       <motion.section 
