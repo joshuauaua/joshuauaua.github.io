@@ -40,7 +40,8 @@
 .bubble-menu .logo-bubble {
   width: auto;
   min-height: var(--bubble-size);
-  height: var(--bubble-size);
+  height: auto;
+  /* Allow height to grow */
   padding: 0 16px;
   border-radius: calc(var(--bubble-size) / 2);
   gap: 8px;
@@ -73,8 +74,9 @@
 .bubble-menu .logo-content>.bubble-logo,
 .bubble-menu .logo-content>img,
 .bubble-menu .logo-content>svg {
-  max-height: var(--logo-max-height);
-  max-width: var(--logo-max-width);
+  max-height: none;
+  /* Remove 60% limit */
+  max-width: none;
 }
 
 .bubble-menu .menu-btn {
