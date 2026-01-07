@@ -16,10 +16,11 @@
       "year": "2025",
       "collaborators": "Sonic Assembly"
     },
-    "description": "Sonic Assembly is a modular audio processing toolkit built in C++. It features a node-based interface for constructing complex signal chains and real-time DSP effects.\n\nDesigned for sound designers and experimental musicians, it provides low-level access to audio buffer manipulation while maintaining a user-friendly visual graph.",
+    "description": "Sonic Assembly is a creative sound studio that I run as a freelancer, providing sound design, original music and audio innovation for brands, films, games and beyond. For this, I created a React website that showcases the studio as a professional, modern and creative company. The website features a clean, responsive design, smooth animations, and a modern color scheme to match the studio's brand. It also includes a portfolio section to showcase the studio's work.",
     "video": "",
     "images": [
-      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2940&auto=format&fit=crop"
+      "/assets/sonic_assembly_1.png",
+      "/assets/sonic_assembly_2.png"
     ],
     "links": {
       "repo": "https://github.com/joshuauaua/sonic-assembly",
@@ -49,8 +50,8 @@
     "description": "Velosonics was a pilot project to apply Machine Learning to audio analysis of delivery bicycles in order to identify current and prospective maintenance issues.  The project was a collaboration between Sonic Assembly and MoveByBike Italy and was selected as 1 of 10 crossdisciplinary projects in Europe by CreativeFLIP, supported by the Goethe Institute and European Commission.",
     "video": "https://youtu.be/dNpMcT1UZmg?si=mFbZk1fD7L1_3snr",
     "images": [
-      "/assets/velosonics_img_1",
-      "/assets/velosonics_img_2"
+      "/assets/velosonics_img_1.png",
+      "/assets/velosonics_img_2.png"
     ],
     "links": {
       "repo": "",
