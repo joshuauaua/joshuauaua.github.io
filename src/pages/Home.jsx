@@ -10,20 +10,26 @@ import SEO from '../components/SEO';
 import './Home.css';
 
 const Home = () => {
-  // Filter for selected projects
-  const selectedProjects = projectsData.filter(p => p.selected);
+  // Filter for selected projects, limited to max 3
+  const selectedProjects = projectsData.filter(p => p.selected).slice(0, 3);
   const [currentIndex, setCurrentIndex] = useState(0);
   const nextSectionRef = useRef(null);
 
   const nextSlide = () => {
     setCurrentIndex(prev => {
-      return (prev + 1) % selectedProjects.length;
+      const isMobile = window.innerWidth < 768;
+      // On desktop, we show 2 items, so for 3 items we only need indices 0 and 1.
+      // On mobile, we show 1 item, so we need indices 0, 1, 2.
+      const maxIndex = isMobile ? selectedProjects.length : selectedProjects.length - 1;
+      return (prev + 1) % maxIndex;
     });
   };
 
   const prevSlide = () => {
     setCurrentIndex(prev => {
-      return (prev - 1 + selectedProjects.length) % selectedProjects.length;
+      const isMobile = window.innerWidth < 768;
+      const maxIndex = isMobile ? selectedProjects.length : selectedProjects.length - 1;
+      return (prev - 1 + maxIndex) % maxIndex;
     });
   };
 

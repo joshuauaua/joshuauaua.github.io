@@ -62,6 +62,10 @@
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   line-height: 1.4;
   max-width: 900px;
+  text-align: center;
+  /* Ensure centering */
+  margin: 0 auto;
+  /* Center the block if width < 100% */
 }
 
 .highlight {
@@ -142,5 +146,18 @@
 
   .section-header {
     margin-bottom: 2rem;
+  }
+
+  /* Responsive updates for Hero and About */
+  .hero-content h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    /* Enlarge for mobile */
+  }
+
+  .about-teaser-text p {
+    font-size: 2.5rem;
+    /* Enlarge for mobile */
+    text-align: center;
   }
 }
