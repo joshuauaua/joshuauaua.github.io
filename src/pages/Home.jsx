@@ -41,7 +41,7 @@ const Home = () => {
     <div className="home-page">
       <SEO 
         title="Home" 
-        description="Portfolio of Joshua Ng, a Creative Technologist merging coding mastery with artistic vision." 
+        description="Portfolio of Joshua Ng, a Creative Technologist and fullstack developer." 
       />
       <section className="hero-section">
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>

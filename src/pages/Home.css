@@ -151,13 +151,13 @@
   /* Responsive updates for Hero and About */
   .hero-content h1 {
     text-align: center;
-    font-size: 3.5rem;
-    /* Enlarge for mobile */
+    font-size: 2.2rem;
+    /* Reduced for mobile */
   }
 
   .about-teaser-text p {
-    font-size: 2.5rem;
-    /* Enlarge for mobile */
+    font-size: 1.7rem;
+    /* Reduced for mobile */
     text-align: center;
   }
 }
