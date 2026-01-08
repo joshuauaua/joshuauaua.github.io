@@ -4,10 +4,10 @@ import './About.css';
 
 const About = () => {
   const expertise = [
-    { title: "Fullstack", skills: ["React", "TypeScript", "Node.js", ".NET Core", "PostgreSQL"] },
-    { title: "Audio Tech", skills: ["FMOD", "Web Audio API", "Max/MSP", "C++", "DSP"] },
-    { title: "Creative", skills: ["Three.js", "GLSL", "Arduino", "TouchDesigner", "UI/UX"] },
-    { title: "DevOps", skills: ["AWS", "Azure", "Docker", "CI/CD", "Linux"] }
+    { title: "Fullstack", skills: ["React", "TypeScript", ".NET Core", "Relational Databases", "Docker", "CI/CD", "Azure"] },
+    { title: "Audio Tech", skills: ["FMOD/Wwise", "Web Audio API", "PureData", "DSP"] },
+    { title: "Creative", skills: [ "P5.js", "Arduino/RPi", "Tensorflow.js", "UI/UX"] },
+    { title: "Project Management", skills: ["Agile", "Scrum", "Jira", "Grant Application", "Branding", "Documentation", "Client Communication"] }
   ];
 
   return (
@@ -33,13 +33,14 @@ const About = () => {
           </p>
           <div className="bio-text">
             <p>
-              My path into programming wasn’t a straight line. For nearly a decade, I worked in the creative industries as a project leader and producer, exploring the intersection of art, culture, and technology. From building a crowdsourced living room in Malmö to founding a creative sound studio for clients like Google and Fujifilm, I’ve always been driven by impactful experiences.
+              My path into programming wasn’t a straight line. For nearly a decade, I worked in the creative industries as a project leader and producer, exploring the intersection of art, culture, and technology. 
+              From building a <a href="https://www.theguardian.com/cities/2015/mar/18/future-city-halls-malmo-tallinn-communities-power" target="_blank" rel="noopener noreferrer">crowdsourced living room</a> in Malmö to founding a <a href="https://www.sonicassembly.se/" target="_blank" rel="noopener noreferrer">creative sound studio</a> delivering projects for clients like Google, Fujifilm and more, I’ve always been driven by impactful experiences.
             </p>
             <p>
-              A turning point came when I developed a machine learning tool to analyze audio for delivery bicycles—revealing the power of combining digital tools with my creative background.
+              A turning point in my journey came when I developed <a href="https://creativeflip.creativehubs.net/post/velosonics" target="_blank" rel="noopener noreferrer">a tool to detect maintenance issues</a> in delivery bicycles utilising Machine Learning and audio analysis. This revealed to me the power of combining digital tools with my creative background.
             </p>
             <p>
-              Today, I’m focused on building digital products using .NET, React, and emerging technologies, striving to create tools that shape a better world.
+              Today, I’m focused on building projects using .NET, React, and other emerging technologies, striving to create tools that shape a better world.
             </p>
           </div>
         </div>
