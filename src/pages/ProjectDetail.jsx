@@ -39,8 +39,10 @@ const ProjectDetail = () => {
         image={project.image}
         url={`/project/${project.slug}`}
       />
-      <div className="project-header-image">
-        <img src={project.headerImage} alt={project.title} />
+      <div 
+        className="project-header-image" 
+        style={{ background: project.headerGradient }}
+      >
         <div className="header-overlay"></div>
         <div className="container header-content">
           <Link to="/projects" className="back-button">

@@ -4,7 +4,7 @@
     "slug": "sonic-assembly",
     "title": "Sonic Assembly",
     "image": "/assets/sonic_assembly_banner.png",
-    "headerImage": "/assets/sonic_assembly_banner.png",
+    "headerGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     "tags": [
       "Frontend",
       "React"
@@ -32,7 +32,7 @@
     "slug": "velosonics",
     "title": "Velosonics",
     "image": "/assets/velosonics_banner.png",
-    "headerImage": "/assets/velosonics_banner.png",
+    "headerGradient": "linear-gradient(135deg, #09203f 0%, #537895 100%)",
     "tags": [
       "ML",
       "Audio Classification",
@@ -63,7 +63,7 @@
     "slug": "open-audio-kit",
     "title": "Open Audio Streaming Kit",
     "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
-    "headerImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop",
+    "headerGradient": "linear-gradient(135deg, #134e5e 0%, #71b280 100%)",
     "tags": [
       "Open Source",
       "Streaming Kit",
@@ -90,7 +90,7 @@
     "slug": "hyper-radio",
     "title": "Hyper Radio",
     "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2940&auto=format&fit=crop",
-    "headerImage": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2940&auto=format&fit=crop",
+    "headerGradient": "linear-gradient(135deg, #cc2b5e 0%, #753a88 100%)",
     "tags": [
       "Web Application",
       "React",
