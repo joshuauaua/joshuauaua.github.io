@@ -5,8 +5,8 @@ const ThemeToggle = ({ bgColor = '#fff', contentColor = '#111' }) => {
   // Initialize state based on localStorage or system preference
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('theme');
-    const system = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-    return saved || system;
+    // Default to dark mode if no preference is saved
+    return saved || 'dark';
   });
 
   useEffect(() => {
