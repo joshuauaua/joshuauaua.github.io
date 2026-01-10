@@ -221,7 +221,10 @@ export default function BubbleMenu({
                     ref={el => {
                       if (el) bubblesRef.current[idx] = el;
                     }}
-                    onClick={() => handleToggle()}
+                    onClick={() => {
+                      handleToggle();
+                      window.scrollTo(0, 0);
+                    }}
                   >
                     <span
                       className="pill-label"

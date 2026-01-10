@@ -106,9 +106,21 @@ const ProjectDetail = () => {
             
             {project.video && (
               <div className="video-container">
-                {/* Placeholder for video embed logic or tag */}
                 <iframe 
-                  src={project.video} 
+                  src={(() => {
+                    const url = project.video;
+                    // Handle youtube short links (youtu.be)
+                    if (url.includes('youtu.be/')) {
+                      const id = url.split('youtu.be/')[1].split('?')[0];
+                      return `https://www.youtube.com/embed/${id}`;
+                    }
+                    // Handle standard youtube links
+                    if (url.includes('youtube.com/watch')) {
+                      const urlParams = new URLSearchParams(new URL(url).search);
+                      return `https://www.youtube.com/embed/${urlParams.get('v')}`;
+                    }
+                    return url;
+                  })()} 
                   title={project.title} 
                   frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

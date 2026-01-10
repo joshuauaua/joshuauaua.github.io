@@ -3,7 +3,7 @@
     "id": "sonic-assembly",
     "slug": "sonic-assembly",
     "title": "Sonic Assembly",
-    "image": "/assets/sonic_assembly_banner.png",
+    "image": "/assets/cover_sonic.png",
     "headerGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     "tags": [
       "Frontend",
@@ -31,7 +31,7 @@
     "id": "velosonics",
     "slug": "velosonics",
     "title": "Velosonics",
-    "image": "/assets/velosonics_banner.png",
+    "image": "/assets/cover_velosonics.png",
     "headerGradient": "linear-gradient(135deg, #09203f 0%, #537895 100%)",
     "tags": [
       "ML",
@@ -39,7 +39,7 @@
       "Sensors",
       "Embedded Programming"
     ],
-    "category": "Machine Learning",
+    "category": "Machine Learning, IoT",
     "selected": true,
     "metadata": {
       "format": "Pilot: Audio Classification with ML",
@@ -72,7 +72,7 @@
       "FFMPEG"
     ],
     "category": "Open Source Streaming Kit",
-    "selected": true,
+    "selected": false,
     "metadata": {
       "format": "Open Source Repo",
       "year": "2025",
@@ -89,23 +89,23 @@
     "id": "hyper-radio",
     "slug": "hyper-radio",
     "title": "Hyper Radio",
-    "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2940&auto=format&fit=crop",
+    "image": "/assets/cover_hyper.png",
     "headerGradient": "linear-gradient(135deg, #cc2b5e 0%, #753a88 100%)",
     "tags": [
       "Web Application",
       "React",
       "Audio"
     ],
-    "category": "Web Application",
-    "selected": false,
+    "category": "Web Application, Streaming Service Concept",
+    "selected": true,
     "metadata": {
       "format": "Web Application",
-      "year": "2023",
-      "client": "Personal Project",
-      "collaborators": "None"
+      "year": "2025",
+      "client": "Music Tech Europe Accelerator",
+      "collaborators": "Axel Schubert"
     },
-    "description": "Hyper Radio is an experimental web-based radio station that procedurally generates audio landscapes. Leveraging the Web Audio API, it creates infinite, evolving soundscapes that react to user interaction. \n\nThe project explores the intersection of code and music composition, allowing users to influence the generative parameters in real-time.",
-    "video": "",
+    "description": "Hyper Radio is a concept that reinvents local radio for the streaming age.  The project, developed with Axel Schubert, was shortlisted out of over 100 applicants for the Music Tech Europe Accelerator program 2026.  Conceptually, the project aims to challenge the streaming service status quo by creating a platform where local artists reach local listeners, as opposed to competing in huge global algorithms. The result was a webapp working prototype for a streaming service that allows listeners to upload tracks, create shows and stations, seamlessly handling HLS protocol, FFMPEG conversion and Azure Blob Storage in the backend built entirely in C#. ",
+    "video": "https://youtu.be/5ujTok-0lfg?feature=youtu.be",
     "images": [
       "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2940&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop"
