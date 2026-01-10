@@ -19,9 +19,10 @@
 
 .email-link {
   font-size: 1.5rem;
-  color: var(--text-muted);
+  color: #a3a3a3;
+  /* Use specific color instead of variable to force visibility on black bg */
   transition: color 0.3s;
-  border-bottom: 1px solid var(--text-muted);
+  border-bottom: 1px solid #a3a3a3;
   padding-bottom: 5px;
 }
 

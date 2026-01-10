@@ -25,8 +25,12 @@
 .bio-text p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #ccc;
+  color: var(--text-muted);
   margin-bottom: 1.5rem;
+}
+
+[data-theme='light'] .bio-text p {
+  color: black;
 }
 
 .expertise-section h2 {
@@ -47,7 +51,7 @@
 .expertise-card h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: white;
+  color: var(--text-main);
 }
 
 .expertise-card ul {
@@ -66,6 +70,10 @@
   position: absolute;
   left: 0;
   color: var(--accent);
+}
+
+[data-theme='light'] .expertise-card li::before {
+  color: black;
 }
 
 @media (max-width: 900px) {

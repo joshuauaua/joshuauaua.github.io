@@ -47,6 +47,7 @@
   margin-bottom: 2rem;
   font-weight: 500;
   transition: opacity 0.3s;
+  color: white;
 }
 
 .back-button:hover {
@@ -66,6 +67,7 @@
   backdrop-filter: blur(5px);
   font-size: 0.9rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 .project-content {
@@ -128,6 +130,10 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
+[data-theme='light'] .btn-link {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
 .btn-link.accent {
   background: var(--accent);
   color: black;
@@ -142,7 +148,7 @@
 .description-text {
   font-size: 1.2rem;
   line-height: 1.8;
-  color: #e5e5e5;
+  color: var(--text-main);
   white-space: pre-wrap;
   /* Preserves line breaks from JSON */
 }
