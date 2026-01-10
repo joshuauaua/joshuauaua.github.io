@@ -6,6 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Footer from './components/Footer';
+import NotFound from './pages/NotFound';
 
 const menuItems = [
   {
@@ -86,6 +87,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/project/:slug" element={<ProjectDetail />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
