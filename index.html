@@ -12,6 +12,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joshua Ng - Creative Technologist</title>
 
+  <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      // Default to dark to match ThemeToggle.jsx logic
+      const theme = saved || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
   <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
