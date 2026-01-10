@@ -38,17 +38,36 @@ const menuItems = [
   // },
   {
     label: 'contact',
-    href: 'mailto:joshuang@example.com',
+    href: '/about#contact',
     ariaLabel: 'Contact',
     rotation: -8,
     hoverStyles: { bgColor: '#8b5cf6', textColor: '#ffffff' }
   }
 ];
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToHash() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.getElementById(hash.replace('#', ''));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+
+  return null;
+}
+
 function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToHash />
         <div className="app-wrapper">
         <BubbleMenu
           logo={<img src="/assets/joshuanglogo.svg" alt="Joshua Ng Logo" className="nav-logo-img" />}

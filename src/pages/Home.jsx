@@ -91,7 +91,7 @@ const Home = () => {
         <div className="about-teaser-text">
           <p>
             I am a <HoverModal text="Creative Technologist" description="Merging coding mastery with artistic vision to build immersive digital experiences." className="highlight" /> and <HoverModal text="Fullstack Engineer" description="Architecting robust, scalable web solutions from database to frontend." className="highlight" />.
-            With a background in the creative industries as a <HoverModal text="project manager" description="Leading diverse teams to deliver complex creative projects on time and within budget." />, I bring a unique perspective to problem solving.
+            With a background in the creative industries as a <HoverModal text="project manager" description="Leading diverse teams to deliver complex creative projects on time and within budget." />, I bring an interdisciplinary approach to problem solving.
           </p>
         </div>
       </motion.section>

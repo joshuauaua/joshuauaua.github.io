@@ -13,7 +13,7 @@
   /* Responsive font sizing */
   line-height: 1.1;
   font-weight: 800;
-  color: var(--text-muted);
+  color: #a3a3a3;
 }
 
 .hero-content .text-white {
@@ -151,12 +151,13 @@
   /* Responsive updates for Hero and About */
   .hero-content h1 {
     text-align: center;
-    font-size: 2.2rem;
+    text-wrap: balance;
+    font-size: 1.8rem;
     /* Reduced for mobile */
   }
 
   .about-teaser-text p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     /* Reduced for mobile */
     text-align: center;
   }
