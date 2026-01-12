@@ -26,24 +26,25 @@ const About = () => {
         <h1>About Me</h1>
       </div>
 
-      <div className="about-content">
+    <div className="about-content">
         <div className="bio-section">
           <p className="bio-lead">
-            I am a <span className="text-accent">multidisciplinary developer</span> bridging the gap between creative vision and technical engineering.
+            I am a <span className="text-accent">multidisciplinary developer and project leader</span> bridging the gap between the technical and the creative.
           </p>
           <div className="bio-text">
             <p>
-              My path into programming wasn’t a straight line. For nearly a decade, I worked in the creative industries as a project leader and producer, exploring the intersection of art, culture, and technology. 
-              From building a <a href="https://www.theguardian.com/cities/2015/mar/18/future-city-halls-malmo-tallinn-communities-power" target="_blank" rel="noopener noreferrer">crowdsourced living room</a> in Malmö to founding a <a href="https://www.sonicassembly.se/" target="_blank" rel="noopener noreferrer">creative sound studio</a> delivering projects for clients like Google, Fujifilm and more, I’ve always been driven by impactful experiences.
+              I spent a decade in the creative industries as a producer and project leader, navigating the intersection of art, culture, and technology. 
+              I thrive in the overlap between these worlds. From building a <a href="https://www.theguardian.com/cities/2015/mar/18/future-city-halls-malmo-tallinn-communities-power" target="_blank" rel="noopener noreferrer">crowdsourced living room</a> in Malmö to founding a <a href="https://www.sonicassembly.se/" target="_blank" rel="noopener noreferrer">creative sound studio</a> serving clients like Google and Fujifilm, I have always been driven by impactful experiences.
             </p>
             <p>
-              A turning point in my journey came when I developed <a href="https://creativeflip.creativehubs.net/post/velosonics" target="_blank" rel="noopener noreferrer">a tool to detect maintenance issues</a> in delivery bicycles utilising Machine Learning and audio analysis. This revealed to me the power of combining digital tools with my creative background.
+              My transition into engineering began when I developed <a href="https://creativeflip.creativehubs.net/post/velosonics" target="_blank" rel="noopener noreferrer">a tool to detect maintenance issues</a> in delivery bicycles using Machine Learning and audio analysis. That project srevealed to me the potential of combining my creative background with advanced digital tools.
             </p>
             <p>
-              Today, I’m focused on building projects using .NET, React, and other emerging technologies, striving to create tools that shape a better world.
+              Today, I focus on building digital products, services and experiences using primarily .NET and React, striving to create digital solutions that solve human problems.
             </p>
           </div>
         </div>
+
 
         <div className="expertise-section">
           <h2>My Expertise</h2>

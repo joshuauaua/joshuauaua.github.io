@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from '../components/ProjectCard';
-import ShinyText from '../components/ShinyText';
+
 import HoverModal from '../components/HoverModal';
 import Silk from '../components/Silk';
 import projectsData from '../data/projects.json';
@@ -14,6 +14,14 @@ const Home = () => {
   const selectedProjects = projectsData.filter(p => p.selected).slice(0, 3);
   const [currentIndex, setCurrentIndex] = useState(0);
   const nextSectionRef = useRef(null);
+  const [role, setRole] = useState("Creative Technologist");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRole(prev => prev === "Creative Technologist" ? "Technical Creative" : "Creative Technologist");
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   const nextSlide = () => {
     setCurrentIndex(prev => {
@@ -60,10 +68,23 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              Hello! <br />
+              Hej! <br />
               My name is <span className="text-white">Joshua Ng</span>.
               <br />
-              I find <ShinyText text="digital solutions" disabled={false} speed={2} className="custom-class" /> to <ShinyText text="human problems" disabled={false} speed={1.5} className="custom-class" />.
+              I am a <span style={{ display: 'inline-block', minWidth: '280px' }}>
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={role}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.5 }}
+                    style={{ display: 'inline-block', color: 'var(--accent)' }}
+                  >
+                    {role}
+                  </motion.span>
+                </AnimatePresence>
+              </span>
             </motion.h1>
           </div>
         </div>
