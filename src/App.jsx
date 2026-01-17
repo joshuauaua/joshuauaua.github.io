@@ -1,6 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import Link from 'react-router-dom'; // Ensure Link is imported if not already, though it might not be needed in App.jsx if not used directly.
+// Actually, App.jsx imports BrowserRouter etc.
+// Let's just add the import for LogoWithFallback and replace the usage.
+
 import BubbleMenu from './components/BubbleMenu';
+import LogoWithFallback from './components/LogoWithFallback';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -71,7 +76,14 @@ function App() {
         <ScrollToHash />
         <div className="app-wrapper">
         <BubbleMenu
-          logo={<img src="/assets/joshuanglogo.svg" alt="Joshua Ng Logo" className="nav-logo-img" />}
+          logo={
+            <LogoWithFallback 
+              src="/assets/joshuanglogo.svg" 
+              alt="Joshua Ng Logo" 
+              className="nav-logo-img" 
+              fallbackText="Joshua Ng"
+            />
+          }
           items={menuItems}
           menuAriaLabel="Toggle navigation"
           menuBg="#000000"

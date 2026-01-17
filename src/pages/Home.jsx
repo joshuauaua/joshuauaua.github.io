@@ -17,8 +17,13 @@ const Home = () => {
   const [role, setRole] = useState("Creative Technologist");
 
   useEffect(() => {
+    const roles = ["Creative Technologist", "Technical Creative", "Fullstack Developer"];
     const interval = setInterval(() => {
-      setRole(prev => prev === "Creative Technologist" ? "Technical Creative" : "Creative Technologist");
+      setRole(prev => {
+        const currentIndex = roles.indexOf(prev);
+        const nextIndex = (currentIndex + 1) % roles.length;
+        return roles[nextIndex];
+      });
     }, 3000);
     return () => clearInterval(interval);
   }, []);
